@@ -26,7 +26,7 @@ A “Go-Live” section shows how to apply the trained model to new, unseen data
 
 Requirements
 
-Typical Python packages (see requirements.txt):
+Typical Python packages:
 numpy
 pandas
 scikit-learn
