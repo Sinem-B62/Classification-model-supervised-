@@ -24,32 +24,6 @@ A “Go-Live” section shows how to apply the trained model to new, unseen data
 
 ---
 
-## Quick Start
-
-### Option A — Run in Google Colab (easiest)
-1. Open Google Colab.
-2. Upload `notebooks/supervised_vehicle_classification.ipynb`.
-3. Run cells top-to-bottom.  
-   *Most dependencies are preinstalled in Colab.*
-
-### Option B — Run locally
-```bash
-# 1) Clone the repo
-git clone <your-repo-url>
-cd <repo-folder>
-
-# 2) (Recommended) create a virtual environment
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-
-# 3) Install dependencies
-pip install -r requirements.txt
-
-# 4) Start Jupyter and open the notebook
-jupyter notebook  # or: jupyter lab
-
 Usage
 
 Open notebooks/supervised_vehicle_classification.ipynb.
